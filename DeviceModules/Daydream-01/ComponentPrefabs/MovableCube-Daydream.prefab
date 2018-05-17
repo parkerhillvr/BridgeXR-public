@@ -56,6 +56,8 @@ GameObject:
   - component: {fileID: 114358189552703662}
   - component: {fileID: 114661281903166540}
   - component: {fileID: 114869130705141180}
+  - component: {fileID: 114451130321640438}
+  - component: {fileID: 114920764187516898}
   m_Layer: 0
   m_Name: MovableCube-Daydream
   m_TagString: Untagged
@@ -304,6 +306,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centerOfMass: {x: 0, y: -1, z: 0}
   rigidbodyCmp: {fileID: 54059263790863144}
+--- !u!114 &114451130321640438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300436728264762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a580e8792f75ac143848611cfa6983a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnHover:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114920764187516898}
+        m_MethodName: RaiseEvent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 1ac06824bff81484fb4ae54cf316e0aa,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: BxrInputIdentifier, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnUnhover:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114920764187516898}
+        m_MethodName: RaiseEvent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 28436893d455d65469fa2fe3fff56906,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: BxrInputIdentifier, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114920764187516898}
+        m_MethodName: RaiseEvent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: eff4a54a997611f4b889036eb9a5b9e6,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: BxrInputIdentifier, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnUnclick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114920764187516898}
+        m_MethodName: RaiseEvent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: fd4d016a1b537ac4ca088fb20bbc90f3,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: BxrInputIdentifier, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114661281903166540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,6 +449,17 @@ MonoBehaviour:
   interactiveObject: {fileID: 114229915317667116}
   meshRenderer: {fileID: 23002624123977830}
   highlightSpeed: 1
+--- !u!114 &114920764187516898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300436728264762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08cc13dc2d4f414b9196a2e4886e0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114990656019585938
 MonoBehaviour:
   m_ObjectHideFlags: 1

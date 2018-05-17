@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2abeb8d48d1db14cb6abc94e93cbc98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabBridge: {fileID: 11400000, guid: 7a4fc4c25a9c5dc48a39c741dcdb412e, type: 2}
+  PrefabBridge: {fileID: 0}
 --- !u!4 &1377593801
 Transform:
   m_ObjectHideFlags: 0
