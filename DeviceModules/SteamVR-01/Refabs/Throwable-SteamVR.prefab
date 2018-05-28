@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114796854665775972}
   - component: {fileID: 114482425246735864}
   m_Layer: 0
-  m_Name: ThrowableCube-SteamVR
+  m_Name: Throwable-SteamVR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

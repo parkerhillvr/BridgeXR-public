@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 114451130321640438}
   - component: {fileID: 114920764187516898}
   m_Layer: 0
-  m_Name: MovableCube-Daydream
+  m_Name: Movable-Daydream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   rigidbodyCmp: {fileID: 54059263790863144}
 --- !u!114 &114451130321640438
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1300436728264762}
@@ -451,7 +451,7 @@ MonoBehaviour:
   highlightSpeed: 1
 --- !u!114 &114920764187516898
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1300436728264762}

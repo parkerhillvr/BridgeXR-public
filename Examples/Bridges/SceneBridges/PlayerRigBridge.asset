@@ -9,14 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d134fed129aacbb46b3f8feff4b8c701, type: 3}
-  m_Name: PlayerRig
+  m_Name: PlayerRigBridge
   m_EditorClassIdentifier: 
   defaultValue: 
   keys:
   - {fileID: 11400000, guid: 0a34dc20ba3058d49946fa2b67f5b754, type: 2}
   - {fileID: 11400000, guid: ad01c50c06ba47c419ee03905cd59748, type: 2}
   values:
-  - Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR.unity
-  - Assets/BridgeXR-public/DeviceModules/Daydream-01/Scenes/PlayerRig-Daydream.unity
-  stringValue: Assets/BridgeXR-public/DeviceModules/Daydream-01/Scenes/PlayerRig-Daydream.unity
+  - Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR-01.unity
+  - Assets/BridgeXR-public/DeviceModules/Daydream-01/Scenes/PlayerRig-Daydream-01.unity
+  stringValue: Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR-01.unity
   description: Used to load the player rig

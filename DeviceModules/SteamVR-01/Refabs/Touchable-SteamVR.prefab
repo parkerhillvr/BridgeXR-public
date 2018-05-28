@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 114033905057905152}
   - component: {fileID: 114307524438403430}
   m_Layer: 0
-  m_Name: TouchableSphere-SteamVR
+  m_Name: Touchable-SteamVR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
