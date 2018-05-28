@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4304886190814554}
   - component: {fileID: 114134045146270176}
-  - component: {fileID: 114461613563389458}
+  - component: {fileID: 114426301838393012}
   m_Layer: 0
   m_Name: PlayerRigLoader
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   LoadOnStart: 1
   MergeWithActive: 0
   targetScene: .
---- !u!114 &114461613563389458
+--- !u!114 &114426301838393012
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
