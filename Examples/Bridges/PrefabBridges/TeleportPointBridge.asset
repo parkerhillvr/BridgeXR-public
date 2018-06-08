@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ce1655168436742bba1e4c7868dd87, type: 3}
+  m_Name: TeleportPointBridge
+  m_EditorClassIdentifier: 
+  defaultValue: 
+  keys:
+  - {fileID: 11400000, guid: 0a34dc20ba3058d49946fa2b67f5b754, type: 2}
+  - {fileID: 11400000, guid: ad01c50c06ba47c419ee03905cd59748, type: 2}
+  stringValue: 
+  values:
+  - 73ac470d3d909d645a6c89a4664b6849
+  - cb7c51fe2ecc24767941f65331c650c9
+  description: 
+  objectValue: {fileID: 1226479492832510, guid: cb7c51fe2ecc24767941f65331c650c9,
+    type: 2}
