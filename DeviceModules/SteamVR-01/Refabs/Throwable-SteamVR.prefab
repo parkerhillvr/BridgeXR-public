@@ -65,7 +65,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4749035110603814
 Transform:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
@@ -121,7 +121,7 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54386354421997776
 Rigidbody:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
@@ -148,7 +148,7 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114342418086678418
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
@@ -162,7 +162,7 @@ MonoBehaviour:
   estimateOnAwake: 0
 --- !u!114 &114482425246735864
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &114515689195493020
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
@@ -226,7 +226,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
 --- !u!114 &114652367111723878
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &114796854665775972
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
@@ -255,7 +255,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 1ac06824bff81484fb4ae54cf316e0aa,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: BxrInputIdentifier, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -272,7 +272,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 28436893d455d65469fa2fe3fff56906,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: BxrInputIdentifier, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -289,7 +289,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: eff4a54a997611f4b889036eb9a5b9e6,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: BxrInputIdentifier, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -304,9 +304,9 @@ MonoBehaviour:
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: eff4a54a997611f4b889036eb9a5b9e6,
+          m_ObjectArgument: {fileID: 11400000, guid: fd4d016a1b537ac4ca088fb20bbc90f3,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: BxrInputIdentifier, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
