@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -15,8 +15,9 @@ MonoBehaviour:
   keys:
   - {fileID: 11400000, guid: 0a34dc20ba3058d49946fa2b67f5b754, type: 2}
   - {fileID: 11400000, guid: ad01c50c06ba47c419ee03905cd59748, type: 2}
+  stringValue: Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR-01.unity
   values:
   - Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR-01.unity
   - Assets/BridgeXR-public/DeviceModules/Daydream-01/Scenes/PlayerRig-Daydream-01.unity
-  stringValue: Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR-01.unity
   description: Used to load the player rig
+  AddToBuildSettings: 1

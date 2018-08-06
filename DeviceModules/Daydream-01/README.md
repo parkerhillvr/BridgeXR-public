@@ -9,7 +9,7 @@ Example device module. For projects targeting Daydream devices and SDK. Uses ele
 
 ## SDK Dependencies
 
-* GVR SDK for Unity v1.130.1 https://github.com/googlevr/gvr-unity-sdk/releases
+* GVR SDK for Unity v1.150.11 https://github.com/googlevr/gvr-unity-sdk/releases
 * Daydream Elements v1.12 https://github.com/googlevr/daydream-elements/releases
 
 Note: Install Daydream Elements first, then let GVR SDK overwrite newer files.
