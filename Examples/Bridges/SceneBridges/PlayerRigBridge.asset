@@ -15,9 +15,11 @@ MonoBehaviour:
   keys:
   - {fileID: 11400000, guid: 0a34dc20ba3058d49946fa2b67f5b754, type: 2}
   - {fileID: 11400000, guid: ad01c50c06ba47c419ee03905cd59748, type: 2}
-  stringValue: Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR-01.unity
+  - {fileID: 11400000, guid: 9a9c59089be49a4428d1fa92cf499812, type: 2}
+  stringValue: Assets/BridgeXR-public/DeviceModules/VRTK-01/Scenes/PlayerRig-VRTK-01.unity
   values:
   - Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR-01.unity
   - Assets/BridgeXR-public/DeviceModules/Daydream-01/Scenes/PlayerRig-Daydream-01.unity
+  - Assets/BridgeXR-public/DeviceModules/VRTK-01/Scenes/PlayerRig-VRTK-01.unity
   description: Used to load the player rig
   AddToBuildSettings: 1
