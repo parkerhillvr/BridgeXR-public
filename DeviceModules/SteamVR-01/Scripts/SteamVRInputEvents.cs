@@ -11,12 +11,11 @@ using Valve.VR.InteractionSystem;
 public class SteamVRInputEvents : MonoBehaviour
 {
     public UnityEvent OnHover;
-
     public UnityEvent OnUnhover;
-
     public UnityEvent OnSelect;
-
     public UnityEvent OnUnSelect;
+
+    private bool _selected;
 
     //-------------------------------------------------
     // Called when a Hand starts hovering over this object
@@ -41,18 +40,24 @@ public class SteamVRInputEvents : MonoBehaviour
     //-------------------------------------------------
     private void HandHoverUpdate(Hand hand)
     {
-        if (hand.GetStandardInteractionButtonDown() || ((hand.controller != null) && hand.controller.GetPressDown(Valve.VR.EVRButtonId.k_EButton_Grip)))
+        if (_selected)
         {
-            if (hand.currentAttachedObject != gameObject)
+            if (hand.GetStandardInteractionButtonUp())
             {
-                OnSelect.Invoke();
-            }
-            else
-            {
+                _selected = false;
                 OnUnSelect.Invoke();
             }
         }
+        else
+        {
+            if (hand.GetStandardInteractionButtonDown())
+            {
+                _selected = true;
+                OnSelect.Invoke();
+            }
+        }
+
     }
-    
+
 }
 
