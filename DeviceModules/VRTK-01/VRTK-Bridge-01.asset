@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55a84c4642aef204ba4b9741c1295727, type: 3}
-  m_Name: VRTKBridge-01
+  m_Name: VRTK-Bridge-01
   m_EditorClassIdentifier: 
   Description: New User Defined Bridge

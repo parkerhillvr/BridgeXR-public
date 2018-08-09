@@ -8,15 +8,15 @@ using Valve.VR.InteractionSystem;
 /// Based off of InteractableExample.cs , calls a unity event when the object was touched or triggered
 /// </summary>
 [RequireComponent(typeof(Interactable))]
-public class SteamVRTouchableEvents : MonoBehaviour
+public class SteamVRInputEvents : MonoBehaviour
 {
     public UnityEvent OnHover;
 
     public UnityEvent OnUnhover;
 
-    public UnityEvent OnClick;
+    public UnityEvent OnSelect;
 
-    public UnityEvent OnUnclick;
+    public UnityEvent OnUnSelect;
 
     //-------------------------------------------------
     // Called when a Hand starts hovering over this object
@@ -45,11 +45,11 @@ public class SteamVRTouchableEvents : MonoBehaviour
         {
             if (hand.currentAttachedObject != gameObject)
             {
-                OnClick.Invoke();
+                OnSelect.Invoke();
             }
             else
             {
-                OnUnclick.Invoke();
+                OnUnSelect.Invoke();
             }
         }
     }

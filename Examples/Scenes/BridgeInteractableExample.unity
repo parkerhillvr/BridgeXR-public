@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 63334683}
   - component: {fileID: 63334682}
   - component: {fileID: 63334681}
+  - component: {fileID: 63334690}
   - component: {fileID: 63334685}
   - component: {fileID: 63334687}
   - component: {fileID: 63334686}
@@ -244,19 +245,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0bf549f2090c548b8b78792faec4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugLog: 0
+  debugLog: 1
   targetInput:
-    BxrInputIdentifier: {fileID: 0}
+    BxrInputIdentifier: {fileID: 11400000, guid: cc4d041e79f445544a685988d57360a2,
+      type: 2}
     InputEvent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 63334682}
-          m_MethodName: set_material
-          m_Mode: 2
+        - m_Target: {fileID: 63334690}
+          m_MethodName: UnHighlight
+          m_Mode: 1
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 079f727312108e24595f00942d8af68f,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -275,19 +276,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0bf549f2090c548b8b78792faec4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugLog: 0
+  debugLog: 1
   targetInput:
-    BxrInputIdentifier: {fileID: 0}
+    BxrInputIdentifier: {fileID: 11400000, guid: 587af083da4a30b45ade15c1bdc28420,
+      type: 2}
     InputEvent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 63334682}
-          m_MethodName: set_material
-          m_Mode: 2
+        - m_Target: {fileID: 63334690}
+          m_MethodName: Highlight
+          m_Mode: 1
           m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: a0622ff603f24454f8cba99c83bc8bd9,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -306,9 +307,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0bf549f2090c548b8b78792faec4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugLog: 0
+  debugLog: 1
   targetInput:
-    BxrInputIdentifier: {fileID: 0}
+    BxrInputIdentifier: {fileID: 11400000, guid: 4b7d42faf45f8584b8541f182fa51ab3,
+      type: 2}
     InputEvent:
       m_PersistentCalls:
         m_Calls:
@@ -336,9 +338,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0bf549f2090c548b8b78792faec4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugLog: 0
+  debugLog: 1
   targetInput:
-    BxrInputIdentifier: {fileID: 0}
+    BxrInputIdentifier: {fileID: 11400000, guid: 9db9f73c378a5254992e581cc155ada7,
+      type: 2}
     InputEvent:
       m_PersistentCalls:
         m_Calls:
@@ -355,23 +358,19 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
---- !u!114 &162578464
+--- !u!114 &63334690
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 63334679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d134fed129aacbb46b3f8feff4b8c701, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d4e97f929ed3c141a026d461126c61e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultValue: 
-  keys: []
-  stringValue: 
-  values: []
-  description: 
-  AddToBuildSettings: 0
+  Model: {fileID: 63334679}
+  HighlightColor: {r: 0.1785651, g: 0.8679245, b: 0.16785331, a: 0}
 --- !u!1 &275301892
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +402,7 @@ Light:
   m_Color: {r: 0.14117648, g: 0.90588236, b: 0.7411765, a: 1}
   m_Intensity: 1
   m_Range: 7.29
-  m_SpotAngle: 34.8
+  m_SpotAngle: 12.2
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -916,6 +915,23 @@ Transform:
   m_Father: {fileID: 1778257164}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!114 &2041324378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d134fed129aacbb46b3f8feff4b8c701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultValue: 
+  keys: []
+  stringValue: 
+  values: []
+  description: 
+  AddToBuildSettings: 0
 --- !u!1 &2059895477
 GameObject:
   m_ObjectHideFlags: 0

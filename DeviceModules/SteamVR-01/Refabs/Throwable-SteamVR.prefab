@@ -8,15 +8,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1239193258310026}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
 --- !u!1 &1239193258310026
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4749035110603814}
   - component: {fileID: 54386354421997776}
@@ -35,9 +35,9 @@ GameObject:
 --- !u!1 &1798602812876570
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4209628795054564}
   - component: {fileID: 33768941032757220}
@@ -53,7 +53,7 @@ GameObject:
 --- !u!4 &4209628795054564
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1798602812876570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -66,7 +66,7 @@ Transform:
 --- !u!4 &4749035110603814
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -80,7 +80,7 @@ Transform:
 --- !u!23 &23184911396365460
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1798602812876570}
   m_Enabled: 1
@@ -115,14 +115,14 @@ MeshRenderer:
 --- !u!33 &33768941032757220
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1798602812876570}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54386354421997776
 Rigidbody:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
   serializedVersion: 2
@@ -137,7 +137,7 @@ Rigidbody:
 --- !u!65 &65269861742361192
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1798602812876570}
   m_Material: {fileID: 0}
@@ -149,7 +149,7 @@ BoxCollider:
 --- !u!114 &114342418086678418
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
   m_Enabled: 1
@@ -163,7 +163,7 @@ MonoBehaviour:
 --- !u!114 &114482425246735864
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
   m_Enabled: 1
@@ -174,7 +174,7 @@ MonoBehaviour:
 --- !u!114 &114515689195493020
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
   m_Enabled: 1
@@ -227,7 +227,7 @@ MonoBehaviour:
 --- !u!114 &114652367111723878
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
   m_Enabled: 1
@@ -238,7 +238,7 @@ MonoBehaviour:
 --- !u!114 &114796854665775972
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239193258310026}
   m_Enabled: 1
@@ -253,9 +253,9 @@ MonoBehaviour:
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 1ac06824bff81484fb4ae54cf316e0aa,
+          m_ObjectArgument: {fileID: 11400000, guid: 587af083da4a30b45ade15c1bdc28420,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -270,9 +270,9 @@ MonoBehaviour:
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 28436893d455d65469fa2fe3fff56906,
+          m_ObjectArgument: {fileID: 11400000, guid: cc4d041e79f445544a685988d57360a2,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -287,9 +287,9 @@ MonoBehaviour:
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: eff4a54a997611f4b889036eb9a5b9e6,
+          m_ObjectArgument: {fileID: 11400000, guid: 9db9f73c378a5254992e581cc155ada7,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -304,9 +304,9 @@ MonoBehaviour:
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: fd4d016a1b537ac4ca088fb20bbc90f3,
+          m_ObjectArgument: {fileID: 11400000, guid: 4b7d42faf45f8584b8541f182fa51ab3,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
