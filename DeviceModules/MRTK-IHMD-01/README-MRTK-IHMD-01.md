@@ -1,11 +1,11 @@
-# Windows Mixed Reality IMR (VR) device module for BridgeXR
+# Windows Mixed Reality IHMD (VR) device module for BridgeXR
 
 
 Author: Parkerhill Reality Labs
 
 ## Description
 
-Example device module. For projects targeting Windows MR immersive VR (IMR) headsets, using the MRTK for Unity SDK.  
+Example device module. For projects targeting Windows MR immersive VR (IHMD) headsets, using the MRTK for Unity SDK.  
 
 ## SDK Dependencies
 
@@ -17,9 +17,9 @@ Example device module. For projects targeting Windows MR immersive VR (IMR) head
 * XR SDK: MixedReality
 
 We recommend you use the shortcut menu Mixed Reality Toolkit > Configure > Apply Mixed Reality Project Settings
-Check "Target Occluded Devices" for IMR (VR)
+Check "Target Occluded Devices" for IHMD (VR)
 
-To build, we recommend you use Mixed Reality Toolkit > Build Window. Quick Options: HoloLens, check "Unity C# Projects" and press "Build Unity Project"
+To build, we recommend you use Mixed Reality Toolkit > Build Window. Quick Options: PC, Un-check "Unity C# Projects" and press "Build Unity Project"
 
  ## BridgeXR standard conventions supported
 
