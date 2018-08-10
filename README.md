@@ -23,13 +23,14 @@ The example scenes demonstrate use of BridgeXR bridges for "Create Once, Build M
 This example scene includes objects:
 
 * PlayerRigLoader - uses Bxr Scene Bridge Loader to load the player rig and camera
-* GrabCube - uses Bxr Component Bridge Loader to make the cube grabbable and throwable
-* PushButton - uses Bxr Component Bridge Load to make a button 
+* GrabCube - uses Bxr Component Bridge Loader to make the cube grabbable and throwable. Highlights when touched. Activates the splotlight to follow it when grabbed.
+* PushButton - uses Bxr Component Bridge Load to make a button. Highlights a child object when touched. Displayed a pressed button when selected, and toggles off the spotlight
+* Teleports - depending on the SDK, uses teleport points to move the player between locations in the scene 
 
 Component bridges:
 
-* Throwable Bridge Example
-* Clickable Bridge Example
+* Throwable Bridge Example - uses a bridge asset (scriptable object)
+* Clickable Bridge Example - uses local references
 
 Input Identifiers:
 

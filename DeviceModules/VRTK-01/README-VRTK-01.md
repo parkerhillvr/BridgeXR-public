@@ -17,18 +17,24 @@ Example device module. For projects using the VRTK (Virtual Reality Toolkit) SDK
 * Build Target: Standalone
 * XR SDK: based on your configuration (eg. OpenVR)
 
- ## BridgeXR standard conventions supported
+## BridgeXR example conventions supported
 
- ### Component bridges
- * Touchable
- * Throwable
+### Component bridges
 
- ### Scene bridges
- * Player loader
+* Selectable
+* Throwable
 
- ### Input events
- * Touch, Untouch
- * Grab, Ungrab
- * Throw
+### Scene bridges
 
- 
+* PlayerRig
+
+### Input events
+
+* Touch, UnTouch
+* Select, UnSelect
+
+## Notes
+
+Player rig and component refabs derived from demo scene Examples/005_Controller_BasicObjectGrabbing and 004_CameraRig_BasicTeleport
+
+The controller objects (in player rig) have InteractTouch, InteractGrab and InteractUse to generate those events on the objects.

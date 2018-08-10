@@ -16,17 +16,24 @@ Example device module. For projects targeting SteamVR runtime and OpenVR SDK. Us
 * Build Target: Standalone
 * XR SDK: OpenVR
 
- ## BridgeXR standard conventions supported
+## BridgeXR example conventions supported
 
- ### Component bridges
- * Touchable
- * Throwable
+### Component bridges
 
- ### Scene bridges
- * Player loader
+* Selectable
+* Throwable
 
- ### Input events
- * Touch, Untouch
- * Grab, Ungrab
- * Throw
+### Scene bridges
 
+* PlayerRig
+
+### Input events
+
+* Touch, UnTouch
+* Select, UnSelect
+
+## Notes
+
+Based on SteamVR Interaction System components. Player rig and component refabs derived from Samples/Scenes/Interactions_Example
+
+Example script SteamVRInputEvents maps steamVR Hand events to Unity Events.

@@ -19,18 +19,17 @@ Note: Install Daydream Elements first, then let GVR SDK overwrite newer files.
 * Build Target: Android
 * XR SDK: Daydream
 
- ## BridgeXR standard conventions supported
+ ## BridgeXR example conventions supported
 
  ### Component bridges
- * Touchable
+ * Selectable
  * Throwable
 
  ### Scene bridges
- * Player loader
+ * PlayerRig
 
  ### Input events
- * Touch, Untouch
- * Grab, Ungrab
- * Throw
+ * Touch, UnTouch
+ * Select, UnSelect
 
  
