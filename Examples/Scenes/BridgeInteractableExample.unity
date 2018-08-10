@@ -113,6 +113,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &50050516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d134fed129aacbb46b3f8feff4b8c701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultValue: 
+  keys: []
+  stringValue: 
+  values: []
+  description: 
+  AddToBuildSettings: 0
 --- !u!1 &63334679
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,9 +764,9 @@ MonoBehaviour:
   - 7dd4acb9f8229ec4f8f74135679896ce
   - 957234456e81c1b419717d44055755ba
   - a819546108794e74a8c8b6ac134eec51
-  - 
+  - cd9cf52261e78914f832aa306ff9bb14
   description: 
-  objectValue: {fileID: 1579467078169898, guid: 957234456e81c1b419717d44055755ba,
+  objectValue: {fileID: 1122496886356374, guid: cd9cf52261e78914f832aa306ff9bb14,
     type: 2}
 --- !u!1 &809455741
 GameObject:
@@ -1318,23 +1335,6 @@ Transform:
   m_Father: {fileID: 1778257164}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
---- !u!114 &1919819235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d134fed129aacbb46b3f8feff4b8c701, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultValue: 
-  keys: []
-  stringValue: 
-  values: []
-  description: 
-  AddToBuildSettings: 0
 --- !u!1 &2059895477
 GameObject:
   m_ObjectHideFlags: 0

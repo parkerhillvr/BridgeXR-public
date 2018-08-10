@@ -21,17 +21,22 @@ Check "Target Occluded Devices" for IHMD (VR)
 
 To build, we recommend you use Mixed Reality Toolkit > Build Window. Quick Options: PC, Un-check "Unity C# Projects" and press "Build Unity Project"
 
- ## BridgeXR standard conventions supported
+## BridgeXR example conventions supported
 
- ### Component bridges
- * Touchable
- * Throwable
+### Component bridges
 
- ### Scene bridges
- * Player loader
+* Selectable
+* Throwable
 
- ### Input events
- * Touch, Untouch
- * Grab, Ungrab
- * Throw
+### Scene bridges
 
+* PlayerRig
+
+### Input events
+
+* Touch, UnTouch
+* Select, UnSelect
+
+## Notes
+
+Grab interactions are based on the Grabbable scripts (HoloToolkit-Examples/MotionControllers-GrabMechanics/Scenes/GrabMechanics scene) and its an implementation specifically for the hand controller input and not HoloLens. (See HoloLens device module for generic version).

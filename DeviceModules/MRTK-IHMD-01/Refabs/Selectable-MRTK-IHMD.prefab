@@ -9,33 +9,31 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1847124217481514}
+  m_RootGameObject: {fileID: 1122496886356374}
   m_IsPrefabAsset: 1
---- !u!1 &1847124217481514
+--- !u!1 &1122496886356374
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4721422678856816}
-  - component: {fileID: 114126592345481984}
-  - component: {fileID: 114891593042490376}
-  - component: {fileID: 114932143017848358}
-  - component: {fileID: 114357866922180376}
+  - component: {fileID: 4214653080540970}
+  - component: {fileID: 114019567218879628}
+  - component: {fileID: 114113204650347866}
   m_Layer: 0
-  m_Name: Throwable-MRTK-IHMD
+  m_Name: Selectable-MRTK-IHMD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4721422678856816
+--- !u!4 &4214653080540970
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847124217481514}
+  m_GameObject: {fileID: 1122496886356374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.413, y: 0.22335768, z: -0.997}
   m_LocalScale: {x: 0.16504839, y: 0.16504839, z: 0.16504839}
@@ -43,78 +41,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114126592345481984
+--- !u!114 &114019567218879628
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847124217481514}
+  m_GameObject: {fileID: 1122496886356374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28c65dcfa65feae40be7f8ffb4d972d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabSpot: {fileID: 0}
-  grabStyle: 0
-  matchPosition: 1
-  matchRotation: 0
---- !u!114 &114357866922180376
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847124217481514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08cc13dc2d4f414b9196a2e4886e0c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114891593042490376
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847124217481514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f998b0e84ebe41240abe525ad28ce99f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  throwMultiplier: 1.2
-  zeroGravityThrow: 0
-  velocityOverTime:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  upDownCurveOverTime:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  leftRightCurveOverTime:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &114932143017848358
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847124217481514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6855a8dedb38a924388dedda5958014d, type: 3}
+  m_Script: {fileID: 11500000, guid: 7bb0dff99084eab4c8d99edfdcf945df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   OnTouch:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114357866922180376}
+      - m_Target: {fileID: 114113204650347866}
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
@@ -131,7 +72,7 @@ MonoBehaviour:
   OnUnTouch:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114357866922180376}
+      - m_Target: {fileID: 114113204650347866}
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
@@ -145,10 +86,10 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  OnGrab:
+  OnSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114357866922180376}
+      - m_Target: {fileID: 114113204650347866}
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
@@ -162,10 +103,10 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  OnUnGrab:
+  OnUnSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114357866922180376}
+      - m_Target: {fileID: 114113204650347866}
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
@@ -179,3 +120,14 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114113204650347866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122496886356374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08cc13dc2d4f414b9196a2e4886e0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -21,17 +21,20 @@ Uncheck "Target Occluded Devices" for HoloLens
 
 To build, we recommend you use Mixed Reality Toolkit > Build Window. Quick Options: HoloLens, check "Unity C# Projects" and press "Build Unity Project"
 
- ## BridgeXR standard conventions supported
+## BridgeXR example conventions supported
 
- ### Component bridges
- * Touchable
- * Throwable
+### Component bridges
 
- ### Scene bridges
- * Player loader
+* Selectable
+* Throwable
 
- ### Input events
- * Touch, Untouch
- * Grab, Ungrab
- * Throw
+### Scene bridges
 
+* PlayerRig
+
+### Input events
+
+* Touch, UnTouch
+* Select, UnSelect
+
+## Notes
