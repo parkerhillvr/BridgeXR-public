@@ -38,3 +38,8 @@ To build, we recommend you use Mixed Reality Toolkit > Build Window. Quick Optio
 * Select, UnSelect
 
 ## Notes
+
+PlayerRig positioned at ( ) and scene table remains at default position rather than letting user holographically place the scene
+Grab interaction uses the HandGrabbable component. 
+Ground plane uses a transparent ground plane at (0,0,0) rather than spatial map.
+
