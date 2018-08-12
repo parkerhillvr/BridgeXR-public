@@ -1,20 +1,25 @@
-# SteamVR device module for BridgeXR
+# Oculus Rift device module for BridgeXR
 
 
 Author: Parkerhill Reality Labs
 
 ## Description
 
-Example device module. For projects targeting SteamVR runtime and OpenVR SDK. Uses elements of SteamVR/Interaction System. 
+Example device module. For projects targeting Oculus Rift runtime and Oculus SDK. 
 
 ## SDK Dependencies
 
-* SteamVR Plugin from Valve https://assetstore.unity.com/packages/templates/systems/steamvr-plugin-32647
+* OculusUtilities 1.27.0 https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
+
+(Not used but may be useful) 
+
+* Oculus Integration 1.27 (includes OculusUtilities plus AudioManager, Avatar, LipSync, and Platform) https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
+* Oculus Sample Framework for Unity 1.27.0 https://developer.oculus.com/downloads/package/oculus-sample-framework-for-unity-5-project/
 
 ## Unity Settings
 
 * Build Target: Standalone
-* XR SDK: OpenVR
+* XR SDK: Oculus
 
 ## BridgeXR example conventions supported
 
@@ -34,6 +39,3 @@ Example device module. For projects targeting SteamVR runtime and OpenVR SDK. Us
 
 ## Notes
 
-Based on SteamVR Interaction System components. Player rig and component refabs derived from Samples/Scenes/Interactions_Example
-
-Example script SteamVRInputEvents maps steamVR Hand events to Unity Events.

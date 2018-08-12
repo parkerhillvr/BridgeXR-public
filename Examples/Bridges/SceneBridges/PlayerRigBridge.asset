@@ -18,12 +18,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9a9c59089be49a4428d1fa92cf499812, type: 2}
   - {fileID: 11400000, guid: d345dc623c60f5c46b55b3daea73bcf0, type: 2}
   - {fileID: 11400000, guid: 39f5d9ab75903024d8d8251436ea32e4, type: 2}
-  stringValue: Assets/BridgeXR-public/DeviceModules/MRTK-HoloLens-01/Scenes/PlayerRig-MRTK-HoloLens-01.unity
+  - {fileID: 11400000, guid: 6b7d838ea525e1d4c84cd80a3ea7f5a6, type: 2}
+  stringValue: Assets/BridgeXR-public/DeviceModules/OVR-Rift-01/Scenes/PlayerRig-OVR-Rift-01.unity
   values:
   - Assets/BridgeXR-public/DeviceModules/SteamVR-01/Scenes/PlayerRig-SteamVR-01.unity
   - Assets/BridgeXR-public/DeviceModules/Daydream-01/Scenes/PlayerRig-Daydream-01.unity
   - Assets/BridgeXR-public/DeviceModules/VRTK-01/Scenes/PlayerRig-VRTK-01.unity
   - Assets/BridgeXR-public/DeviceModules/MRTK-IHMD-01/Scenes/PlayerRig-MRTK-IHMD-01.unity
   - Assets/BridgeXR-public/DeviceModules/MRTK-HoloLens-01/Scenes/PlayerRig-MRTK-HoloLens-01.unity
+  - Assets/BridgeXR-public/DeviceModules/OVR-Rift-01/Scenes/PlayerRig-OVR-Rift-01.unity
   description: Used to load the player rig
   AddToBuildSettings: 1
