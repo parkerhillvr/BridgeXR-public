@@ -9,69 +9,53 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1099452354903970}
+  m_RootGameObject: {fileID: 1004781172154728}
   m_IsPrefabAsset: 1
---- !u!1 &1099452354903970
+--- !u!1 &1004781172154728
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4920883926101036}
-  - component: {fileID: 114394466053874290}
-  - component: {fileID: 114091325168334506}
+  - component: {fileID: 4504576050863382}
+  - component: {fileID: 114838992604458412}
+  - component: {fileID: 114814517460247612}
   m_Layer: 0
-  m_Name: Throwable-OVR-Rift
+  m_Name: Selectable-OVR-Rift
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4920883926101036
+--- !u!4 &4504576050863382
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1099452354903970}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.254, y: 0.9, z: -0.311}
-  m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
+  m_GameObject: {fileID: 1004781172154728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114091325168334506
+--- !u!114 &114814517460247612
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1099452354903970}
+  m_GameObject: {fileID: 1004781172154728}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08cc13dc2d4f414b9196a2e4886e0c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e565becba0d1c24381f76540d4f20d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114394466053874290
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1099452354903970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64f2fbe4a6005684b824cbdafeffcc7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 0
-  m_snapOrientation: 0
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
   OnTouch:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114091325168334506}
+      - m_Target: {fileID: 114838992604458412}
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
@@ -88,7 +72,7 @@ MonoBehaviour:
   OnUnTouch:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114091325168334506}
+      - m_Target: {fileID: 114838992604458412}
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
@@ -105,7 +89,7 @@ MonoBehaviour:
   OnSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114091325168334506}
+      - m_Target: {fileID: 114838992604458412}
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
@@ -115,14 +99,14 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   OnUnSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114091325168334506}
+      - m_Target: {fileID: 114838992604458412}
         m_MethodName: RaiseEvent
         m_Mode: 2
         m_Arguments:
@@ -136,3 +120,14 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114838992604458412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004781172154728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08cc13dc2d4f414b9196a2e4886e0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

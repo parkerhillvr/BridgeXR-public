@@ -234,6 +234,7 @@ MonoBehaviour:
   ConstantValue: {fileID: 11400000, guid: 0e97ee36c3932f6459b7a8b91077b790, type: 2}
   UseConstant: 1
   Variable: {fileID: 583947081}
+  components: []
 --- !u!114 &63334686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,6 +372,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Model: {fileID: 63334679}
   HighlightColor: {r: 0.1785651, g: 0.8679245, b: 0.16785331, a: 0}
+--- !u!114 &123996238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d134fed129aacbb46b3f8feff4b8c701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultValue: 
+  keys: []
+  stringValue: 
+  values: []
+  description: 
+  AddToBuildSettings: 0
 --- !u!1 &275301892
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,23 +658,6 @@ MonoBehaviour:
   values: []
   description: 
   objectValue: {fileID: 0}
---- !u!114 &655433365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d134fed129aacbb46b3f8feff4b8c701, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultValue: 
-  keys: []
-  stringValue: 
-  values: []
-  description: 
-  AddToBuildSettings: 0
 --- !u!1 &682547464
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +761,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9a9c59089be49a4428d1fa92cf499812, type: 2}
   - {fileID: 11400000, guid: d345dc623c60f5c46b55b3daea73bcf0, type: 2}
   - {fileID: 11400000, guid: 39f5d9ab75903024d8d8251436ea32e4, type: 2}
+  - {fileID: 11400000, guid: 6b7d838ea525e1d4c84cd80a3ea7f5a6, type: 2}
   stringValue: 731c2d29368f110498d41670775179ea
   values:
   - 7dd4acb9f8229ec4f8f74135679896ce
@@ -767,6 +769,7 @@ MonoBehaviour:
   - a819546108794e74a8c8b6ac134eec51
   - cd9cf52261e78914f832aa306ff9bb14
   - 731c2d29368f110498d41670775179ea
+  - 037fd1a38f5f20948ba2143fdcc387a4
   description: 
   objectValue: {fileID: 1714800501674370, guid: 731c2d29368f110498d41670775179ea,
     type: 2}
@@ -850,6 +853,7 @@ GameObject:
   - component: {fileID: 923602066}
   - component: {fileID: 923602065}
   - component: {fileID: 923602067}
+  - component: {fileID: 923602068}
   m_Layer: 0
   m_Name: PushButton
   m_TagString: Untagged
@@ -1046,6 +1050,19 @@ MonoBehaviour:
   ConstantValue: {fileID: 0}
   UseConstant: 0
   Variable: {fileID: 766262239}
+  components: []
+--- !u!65 &923602068
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 923602060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000004, y: 0.35239163, z: 1}
+  m_Center: {x: -0.1700419, y: -0.32380435, z: 0}
 --- !u!114 &1221058212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1355,7 +1372,7 @@ MonoBehaviour:
   values:
   - ee0a88a9e0d65a841b87eb0a878384ca
   description: 
-  objectValue: {fileID: 1118362885266800, guid: ee0a88a9e0d65a841b87eb0a878384ca,
+  objectValue: {fileID: 1119609146457180, guid: a74debfad1e05534887dbf419288071f,
     type: 2}
 --- !u!1 &1877096998
 GameObject:

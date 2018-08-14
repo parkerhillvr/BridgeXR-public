@@ -8,6 +8,7 @@ public class SimpleHighlighter : MonoBehaviour
     public Color HighlightColor;
     private Material _material;
     private Color _saveColor;
+    private bool _highlighted;
 
     void OnValidate()
     {
@@ -22,12 +23,20 @@ public class SimpleHighlighter : MonoBehaviour
 
     public void Highlight()
     {
-        _saveColor = _material.color;
-        _material.color = HighlightColor;
+        if (!_highlighted)
+        {
+            _saveColor = _material.color;
+            _material.color = HighlightColor;
+            _highlighted = true;
+        }
     }
 
     public void UnHighlight()
     {
-        _material.color = _saveColor;
+        if (_highlighted)
+        {
+            _material.color = _saveColor;
+            _highlighted = false;
+        }
     }
 }
