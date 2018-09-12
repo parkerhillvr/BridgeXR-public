@@ -16,11 +16,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0a34dc20ba3058d49946fa2b67f5b754, type: 2}
   - {fileID: 11400000, guid: 9a9c59089be49a4428d1fa92cf499812, type: 2}
   - {fileID: 11400000, guid: ad01c50c06ba47c419ee03905cd59748, type: 2}
+  - {fileID: 11400000, guid: 87d41e8cf20f65b4bb479d2677588ad0, type: 2}
   stringValue: 
   values:
   - 7dd4acb9f8229ec4f8f74135679896ce
   - a819546108794e74a8c8b6ac134eec51
   - 957234456e81c1b419717d44055755ba
+  - 77702a70a3c92c24abc9e537b583aba2
   description: 
   objectValue: {fileID: 1579467078169898, guid: 957234456e81c1b419717d44055755ba,
     type: 2}

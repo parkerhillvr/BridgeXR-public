@@ -19,6 +19,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d345dc623c60f5c46b55b3daea73bcf0, type: 2}
   - {fileID: 11400000, guid: 39f5d9ab75903024d8d8251436ea32e4, type: 2}
   - {fileID: 11400000, guid: 6b7d838ea525e1d4c84cd80a3ea7f5a6, type: 2}
+  - {fileID: 11400000, guid: 87d41e8cf20f65b4bb479d2677588ad0, type: 2}
   stringValue: e2e51597210e5604798e32f8b1613a20
   values:
   - 9a0635b9b6bab1748bd33cb50ec34e95
@@ -27,6 +28,7 @@ MonoBehaviour:
   - 8a491ecbc882b88448c4874f6a0fbd4a
   - e2e51597210e5604798e32f8b1613a20
   - 54355f92e9cedad42af1a45e813ffc2f
+  - 63990bbeb89919e48a04061d1d9c7f19
   description: 
   objectValue: {fileID: 1569877293403758, guid: 54355f92e9cedad42af1a45e813ffc2f,
     type: 2}
