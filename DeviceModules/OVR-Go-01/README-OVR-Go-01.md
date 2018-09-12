@@ -25,7 +25,7 @@ Example device module. For projects targeting Daydream devices and SDK.
 ### Component bridges
 
 * Selectable
-* Throwable
+* todo: Throwable (attach to end of laser, move on update. transfer velocity on release)
 
 ### Scene bridges
 

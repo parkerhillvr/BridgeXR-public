@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4602289364416446}
   - component: {fileID: 114493813042160464}
-  - component: {fileID: 114714492384389908}
+  - component: {fileID: 114363792591398926}
   m_Layer: 0
   m_Name: Selectable-OVR-Go
   m_TagString: Untagged
@@ -41,6 +41,91 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114363792591398926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1727133332701506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114493813042160464}
+          m_MethodName: RaiseEvent
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 587af083da4a30b45ade15c1bdc28420,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114493813042160464}
+          m_MethodName: RaiseEvent
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: cc4d041e79f445544a685988d57360a2,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114493813042160464}
+          m_MethodName: RaiseEvent
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 9db9f73c378a5254992e581cc155ada7,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114493813042160464}
+          m_MethodName: RaiseEvent
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 4b7d42faf45f8584b8541f182fa51ab3,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!114 &114493813042160464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52,82 +137,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08cc13dc2d4f414b9196a2e4886e0c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114714492384389908
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1727133332701506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e565becba0d1c24381f76540d4f20d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnTouch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114493813042160464}
-        m_MethodName: RaiseEvent
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 587af083da4a30b45ade15c1bdc28420,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnUnTouch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114493813042160464}
-        m_MethodName: RaiseEvent
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: cc4d041e79f445544a685988d57360a2,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnSelect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114493813042160464}
-        m_MethodName: RaiseEvent
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 9db9f73c378a5254992e581cc155ada7,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnUnSelect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114493813042160464}
-        m_MethodName: RaiseEvent
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 4b7d42faf45f8584b8541f182fa51ab3,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: BridgeXR.Core.BxrInputIdentifier, BridgeXRAssembly
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
